@@ -1,0 +1,30 @@
+.title {
+  color: white;
+  font-size: 4rem;
+}
+
+.header {
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 200px;
+}
+
+.countBtn {
+  display: inline-block;
+  background-color: var(--color4);
+  color: var(--color2);
+  font-size: 1.2rem;
+  height: 100px;
+  width: 250px;
+  transition: 0.3s ease;
+}
+
+.countBtn:hover {
+  transform: scale(1.02);
+  box-shadow: 2px 2px var(--color3);
+}
